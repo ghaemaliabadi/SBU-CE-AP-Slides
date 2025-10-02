@@ -28,20 +28,17 @@ body, .jp-Notebook {
 
 /* 7. Tables */
 table {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   border-collapse: collapse;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(2, 6, 23, .04);
-  border-radius: 12px;
-  overflow: hidden;
+  text-align: center;
 }
 
 th, td {
   border: 1px solid #e5e7eb;
   padding: 0.6rem 0.9rem;
-  text-align: center;
+  text-align: center !important;
+  vertical-align: middle;
 }
 
 th {
@@ -208,40 +205,4 @@ p, ol, li {
   background: rgba(2, 6, 23, .03);
   margin-top: 1rem;
   max-width: 300px;
-}
-
-/* 7. Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(2, 6, 23, .04);
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-th, td {
-  border: 1px solid #e5e7eb;
-  padding: 0.6rem 0.9rem;
-  text-align: center;
-}
-
-th {
-  background: #f9fafb;
-  color: #1d4ed8;
-  font-weight: 700;
-}
-
-td {
-  color: #0b132b;
-}
-
-tr:nth-child(even) td {
-  background: #fdfdfd;
-}
-
-tr:hover td {
-  background: #f9fafb;
 }
