@@ -79,6 +79,7 @@ h3 {
   text-align: center;
 }
 
+
 p {
   margin: 0 0 1rem 0;
 }
@@ -161,8 +162,8 @@ p, ol, li {
 /* 6. Cover-specific elements */
 .brand-center { display: flex; justify-content: center; margin-bottom: 1rem; }
 .logo { width: 160px; height: 160px; object-fit: contain; }
-.pretitle { color: #059669; font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; }
-.inst { color: #dc5d26; margin-top: 0.25rem; }
+.pretitle { color: #059669; font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center; text-align: center;}
+.inst { color: #dc5d26; margin-top: 0.25rem; display: flex; justify-content: center; align-items: center; text-align: center;}
 .authors {
   display: inline-block;
   padding: .35rem .75rem;
